@@ -51,10 +51,7 @@ Developed by:Abdul kalaam k m
 RegisterNumber:212223230003
 
 
-module TFLIPFLOPPOSEDGE( input clk, rst_n, input t,
-output reg q,
-output q_bar
-);
+module TFLIPFLOPPOSEDGE( input clk, rst_n, input t,output reg q,output q_bar);
 always@(posedge clk) 
 begin 
 if(!rst_n)
